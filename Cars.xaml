@@ -1,0 +1,50 @@
+﻿<Page x:Class="CarsStore.Cars"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CarsStore"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d"  Height="667" Width="1135"
+      Title="Cars" Loaded="Page_Loaded">
+
+    <Grid Background="Black" >
+        <DataGrid Name="DataGrid" HorizontalAlignment="Left" Height="510" VerticalAlignment="Top" Width="1018" Margin="56,112,0,0" Background="#FF3B424B"/>
+        <Label Content="جستجو" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="1014,0,0,592.667" FontSize="18" />
+        <TextBox x:Name="name1" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="872,42,0,576.667" TextWrapping="Wrap" Width="137" Foreground="#FFFCFCFC" BorderBrush="#FFFCFCFC" />
+
+        <Button
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+  ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="82,34,1012.667,592.667" Background="Black" BorderBrush="{x:Null}"  Foreground="#FF9D2B2B" Click="Button_Click_2">
+            <materialDesign:PackIcon
+    Kind="Delete"
+    Height="24"
+    Width="24" />
+        </Button>
+        <Button
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+  ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="155,34,939.667,592.667" Background="Black" BorderBrush="{x:Null}" Foreground="#FF007ACC" Click="Button_Click_1" >
+            <materialDesign:PackIcon
+    Kind="Update"
+    Height="24"
+    Width="24" />
+        </Button>
+        <Button
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+  ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="231,34,863.667,592.667" Foreground="#FF50B84A" BorderBrush="{x:Null}" Background="Black" Click="Button_Click_3">
+            <materialDesign:PackIcon
+    Kind="Edit"
+    Height="24"
+    Width="24" />
+
+        </Button>
+        <Button
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+  ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="786,50,308.667,576.667" Background="Black" BorderBrush="{x:Null}" Click="Button_Click" >
+            <materialDesign:PackIcon
+    Kind="UserSearch"
+    Height="24"
+    Width="24" Foreground="#DDFBFAF7" />
+        </Button>
+    </Grid>
+</Page>

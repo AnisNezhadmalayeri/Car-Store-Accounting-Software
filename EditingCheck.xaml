@@ -1,0 +1,29 @@
+﻿<Window x:Class="CarsStore.EditingCheck"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarsStore"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="EditingCheck" Height="300" Width="1135" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid Background="Black">
+
+        <Label Content="ویرایش چک" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="982,0,0,216.4" FontSize="18" />
+        <Label Content=":تاریخ" Foreground="White"  HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="1015,0,0,112.4" Height="48" />
+        <TextBox x:Name="date" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="837,109,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="158" Background="{x:Null}" Foreground="White"/>
+        <Label Content=":مبلغ" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="730,0,0,111.4" Height="48" Width="53" Background="#FF080707" Foreground="White"/>
+        <TextBox x:Name="count" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="557,109,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="168" Background="{x:Null}" Foreground="White"/>
+        <Label Content=":نام دارنده حساب" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="327,0,0,111.4" Height="48" Width="138" Foreground="White"/>
+        <TextBox x:Name="name" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="146,110,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="151" Background="{x:Null}" Foreground="White"/>
+        <Button
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+            ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="57,196,1031.8,29.4" Height="Auto" Foreground="#FF50B84A" Background="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click_1">
+            <materialDesign:PackIcon
+                Kind="Edit" 
+                Height="24"
+                Width="24" Foreground="#FF007ACC" />
+        </Button>
+
+    </Grid>
+</Window>

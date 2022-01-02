@@ -1,0 +1,108 @@
+﻿<Page x:Class="CarsStore.StoreMaterial"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:CarsStore"
+      mc:Ignorable="d" 
+            Height="667" Width="1135"
+      Title="StoreMaterial">
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1089*"/>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="ثبت کالا" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="1014,0,0,592.667" FontSize="18" />
+        <Label Content=":نام" Foreground="White"  HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="1047,0,0,488.667" Height="48" />
+        <TextBox x:Name="name1" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="907,130,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content="رنگ" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="795,0,0,488.667" Height="48" Width="40" Background="#FF080707" Foreground="White"/>
+        <TextBox x:Name="color" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="642,143,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content="مدل" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="525,0,0,488.667" Height="48" Width="40" Foreground="White"/>
+        <TextBox x:Name="model" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="358,130,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content= "قیمت خرید" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="237,0,0,488.667" Height="48" Width="94" Foreground="White"/>
+        <TextBox x:Name="price" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="67,130,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content=":نام" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="1047,0,0,389.667" Height="48" Foreground="White"/>
+        <TextBox x:Name="name1_Copy" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="907,229,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content="رنگ" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="795,0,0,389.667" Height="48" Width="40" Foreground="White"/>
+        <TextBox x:Name="color_Copy" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="642,242,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content="مدل" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="525,0,0,389.667" Height="48" Width="40" Foreground="White"/>
+        <TextBox x:Name="model_Copy" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="358,229,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content= "قیمت خرید" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="237,0,0,389.667" Height="48" Width="94" Foreground="White"/>
+        <TextBox x:Name="price_Copy" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="67,229,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content=":نام" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="1047,0,0,300.667" Height="48" Foreground="White"/>
+        <TextBox x:Name="name1_Copy1" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="907,318,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content="رنگ" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="795,0,0,300.667" Height="48" Width="40" Foreground="White"/>
+        <TextBox x:Name="color_Copy1" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="642,331,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content="مدل" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="525,0,0,300.667" Height="48" Width="40" Foreground="White"/>
+        <TextBox x:Name="model_Copy1" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="358,318,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content= "قیمت خرید" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="237,0,0,300.667" Height="48" Width="94" Foreground="White"/>
+        <TextBox x:Name="price_Copy1" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="67,318,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content=":نام" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="1047,0,0,217.667" Height="48" Foreground="White"/>
+        <TextBox x:Name="name1_Copy2" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="907,401,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content="رنگ" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="795,0,0,217.667" Height="48" Width="40" Foreground="White"/>
+        <TextBox x:Name="color_Copy2" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="642,414,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content="مدل" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="525,0,0,217.667" Height="48" Width="40" Foreground="White"/>
+        <TextBox x:Name="model_Copy2" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="358,401,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content= "قیمت خرید" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="237,0,0,217.667" Height="48" Width="94" Foreground="White"/>
+        <TextBox x:Name="price_Copy2" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="67,401,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content=":نام" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="1047,0,0,120.667" Height="48" Foreground="White"/>
+        <TextBox x:Name="name1_Copy3" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="907,498,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content="رنگ" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="795,0,0,120.667" Height="48" Width="40" Foreground="White"/>
+        <TextBox x:Name="color_Copy3" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="642,511,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content="مدل" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="525,0,0,120.667" Height="48" Width="40" Foreground="White"/>
+        <TextBox x:Name="model_Copy3" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="358,498,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Label Content= "قیمت خرید" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="18" Margin="237,0,0,120.667" Height="48" Width="94" Foreground="White"/>
+        <TextBox x:Name="price_Copy3" BorderThickness="0 0 0 1" HorizontalAlignment="Left" Height="48" Margin="67,498,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="{x:Null}" Foreground="White"/>
+        <Button
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+  ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="99,551,949.667,70.667" Height="Auto" Foreground="#FF50B84A" Background="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click_1">
+            <materialDesign:PackIcon
+     Kind="ContentSave" 
+    Height="24"
+    Width="24" />
+        </Button>
+        <Button
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+  ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="6.333,130,-0.333,496.667" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFB39DDB" Grid.Column="1" Grid.ColumnSpan="2">
+            <materialDesign:PackIcon
+    Kind="Number1"
+    Height="24"
+    Width="24" />
+        </Button>
+        <Button
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+  ToolTip="MaterialDesignFloatingActionMiniLightButton" RenderTransformOrigin="0.866,0.449" Margin="6.333,229,-0.333,397.667" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFB39DDB" Grid.Column="1" Grid.ColumnSpan="2">
+            <materialDesign:PackIcon
+    Kind="Number2"
+    Height="24"
+    Width="24" />
+
+        </Button>
+        <Button
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+  ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="6.333,318,-0.333,308.667" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFB39DDB" Grid.Column="1" Grid.ColumnSpan="2">
+            <materialDesign:PackIcon
+    Kind="Number3"
+    Height="24"
+    Width="24" />
+        </Button>
+        <Button
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+  ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="6.333,401,-0.333,225.667" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFB39DDB" Grid.Column="1" Grid.ColumnSpan="2">
+            <materialDesign:PackIcon
+    Kind="Number4"
+    Height="24"
+    Width="24" />
+        </Button>
+        <Button
+  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+  ToolTip="MaterialDesignFloatingActionMiniLightButton" Margin="6.333,498,-0.333,128.667" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFB39DDB" Grid.Column="1" Grid.ColumnSpan="2">
+            <materialDesign:PackIcon
+    Kind="Number5"
+    Height="24"
+    Width="24" />
+        </Button>
+    </Grid>
+</Page>
